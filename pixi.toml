@@ -1,0 +1,19 @@
+[project]
+authors = ["Martin Fleischmann <martin@martinfleischmann.net>"]
+channels = ["conda-forge"]
+description = "Add a short description here"
+name = "kindergartens"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+pandas = "*"
+beautifulsoup4 = "*"
+stanza = "*"
+httpx = "*"
+requests = "*"
+geopandas = "*"
+spacy = "*"
+ipykernel = ">=6.29.5,<7"
