@@ -3,7 +3,7 @@ authors = ["Martin Fleischmann <martin@martinfleischmann.net>"]
 channels = ["conda-forge"]
 description = "Add a short description here"
 name = "kindergartens"
-platforms = ["osx-arm64"]
+platforms = ["osx-arm64", "linux-64"]
 version = "0.1.0"
 
 [tasks]
@@ -17,3 +17,4 @@ requests = "*"
 geopandas = "*"
 spacy = "*"
 ipykernel = ">=6.29.5,<7"
+jupyterlab = ">=4.4.2,<5"
